@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "author": "Cilas Macedo",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-breadboard-half", "id": "bb1", "top": 150.6, "left": -35.6, "attrs": {} },
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": -76.2, "left": 239.4, "attrs": {} },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": -137.6,
+      "left": -80.8,
+      "attrs": { "pins": "i2c" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": 85.2,
+      "left": 169.8,
+      "rotate": 270,
+      "attrs": { "color": "limegreen" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led2",
+      "top": 85.2,
+      "left": 121.8,
+      "rotate": 270,
+      "attrs": { "color": "yellow" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led3",
+      "top": 85.2,
+      "left": 64.2,
+      "rotate": 270,
+      "attrs": { "color": "orange" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led4",
+      "top": 85.2,
+      "left": 16.2,
+      "rotate": 270,
+      "attrs": { "color": "red" }
+    }
+  ],
+  "connections": [
+    [ "uno:GND.2", "bb1:tn.25", "black", [ "v0" ] ],
+    [ "uno:5V", "bb1:tp.25", "red", [ "v9.5", "h-178.6" ] ],
+    [ "lcd1:GND", "bb1:tn.1", "black", [ "h-48", "v278.4", "h124.8" ] ],
+    [ "lcd1:VCC", "bb1:tp.1", "red", [ "h-38.4", "v259.3", "h115.2" ] ],
+    [ "lcd1:SDA", "uno:A4", "green", [ "h-28.8", "v240.2", "h595.2", "v-9.6" ] ],
+    [ "lcd1:SCL", "uno:A5", "green", [ "h-19.2", "v211.5", "h595.2" ] ],
+    [ "uno:8", "led4:A", "red", [ "v144", "h-364.4" ] ],
+    [ "uno:9", "led3:A", "red", [ "v115.2", "h-306.4" ] ],
+    [ "uno:10", "led2:A", "red", [ "v96", "h-248.9" ] ],
+    [ "uno:11", "led1:A", "red", [ "v76.8", "h-191.4" ] ],
+    [ "led4:C", "bb1:tn.4", "black", [ "v0" ] ],
+    [ "led3:C", "bb1:tn.8", "black", [ "v0" ] ],
+    [ "led2:C", "bb1:tn.13", "black", [ "v0" ] ],
+    [ "led1:C", "bb1:tn.17", "black", [ "v0" ] ]
+  ],
+  "serialMonitor": { "display": "always", "newline": "lf" },
+  "dependencies": {}
+}
