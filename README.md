@@ -10,19 +10,19 @@ Cilas Pinto Macedo RM 560745
 
 Projeto: Sistema de Cálculo de Economia de Energia com LEDs e LCD
 
-### Descrição do Projeto
+### 📋Descrição do Projeto
 
 Este projeto foi desenvolvido para calcular a média de consumo de energia com base em três valores fornecidos pelo usuário e, em seguida, avaliar a redução percentual do consumo quando comparado com um quarto valor. Dependendo do resultado, o sistema ativa LEDs de diferentes cores para indicar a meta atingida e exibe informações no LCD. Acreditamos que nosso programa tras uma utilidade interessante para mensurar a diferença do seu esforço ao tomar atitudes voltadas a economia de energia. Tudo isso unido a uma interface interativa e um sistema de recompensas por metas pode engajar e influenciar nossos clientes a adotarem um estilo de vida mais sustentavel
 
-# Funcionamento do Sistema
+# ## 🚀 Funcionamento do Sistema
 
-### Entrada de Dados:
+### 📦Entrada de Dados:
 
 O usuário insere três valores (por exemplo, consumo de energia nos últimos meses) pelo Monitor Serial.
 O sistema calcula a média desses três valores.
 O usuário fornece um quarto valor (consumo atual) para comparação.
 
-### Cálculo de Redução:
+### ⚙️Cálculo de Redução:
 
 Classificação e Indicação de Metas:
 
@@ -41,7 +41,7 @@ LCD I2C 16x2.
 LEDs:
 Vermelho, Laranja, Amarelo, Verde.
 
-### Conexões do Circuito
+### ✒️Conexões do Circuito
 
 LCD I2C:
 Conecte os pinos SDA e SCL aos pinos A4 e A5 do Arduino, respectivamente.
@@ -51,11 +51,11 @@ Conecte os cátodos ao GND.
 
 Dependências e Configuração
 
-### Bibliotecas Necessárias
+### 📄Bibliotecas Necessárias
 
 LiquidCrystal_I2C
 
-### Configuração no WOKWI
+### 🛠️ Configuração no WOKWI
 
 No arquivo JSON do projeto WOKWI, adicione o seguinte codigo para que o Monitor Serial inicie aberto e aceite entradas:
  "serialMonitor": { "display": "always", "newline": "lf" },
