@@ -10,9 +10,9 @@ Cilas Pinto Macedo RM 560745
 
 Projeto: Sistema de Cálculo de Economia de Energia com LEDs e LCD
 
-Descrição do Projeto
+### Descrição do Projeto
 
-Este projeto foi desenvolvido para calcular a média de consumo de energia com base em três valores fornecidos pelo usuário e, em seguida, avaliar a redução percentual do consumo quando comparado com um quarto valor. Dependendo do resultado, o sistema ativa LEDs de diferentes cores para indicar a meta atingida e exibe informações no LCD.
+Este projeto foi desenvolvido para calcular a média de consumo de energia com base em três valores fornecidos pelo usuário e, em seguida, avaliar a redução percentual do consumo quando comparado com um quarto valor. Dependendo do resultado, o sistema ativa LEDs de diferentes cores para indicar a meta atingida e exibe informações no LCD. Acreditamos que nosso programa tras uma utilidade interessante para mensurar a diferença do seu esforço ao tomar atitudes voltadas a economia de energia. Tudo isso unido a uma interface interativa e um sistema de recompensas por metas pode engajar e influenciar nossos clientes a adotarem um estilo de vida mais sustentavel
 
 # Funcionamento do Sistema
 
