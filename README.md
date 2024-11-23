@@ -44,7 +44,7 @@ Vermelho, Laranja, Amarelo, Verde.
 LCD I2C:
 Conecte os pinos SDA e SCL aos pinos A4 e A5 do Arduino, respectivamente.
 LEDs:
-Conecte os anodos dos LEDs aos pinos digitais 8 (vermelho), 9 (laranja), 10 (amarelo) e 11 (verde), utilizando resistores de 220 ohms.
+Conecte os anodos dos LEDs aos pinos digitais 8 (vermelho), 9 (laranja), 10 (amarelo) e 11 (verde).
 Conecte os cátodos ao GND.
 
 Dependências e Configuração
